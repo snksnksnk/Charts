@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  s.module_name = 'DGCharts'
   s.name = "Charts"
   s.version = "4.0.3"
   s.summary = "Charts is a powerful & easy to use chart library for iOS, tvOS and OSX (and Android)"
@@ -8,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "12.0"
   s.tvos.deployment_target = "12.0"
   s.osx.deployment_target = "10.12"
-  s.source = { :git => "https://github.com/danielgindi/Charts.git", :tag => "v#{s.version}" }
+  s.source = { :git => "https://github.com/snksnksnk/Charts", :tag => "v#{s.version}" }
   s.default_subspec = "Core"
   s.swift_version = '5.3'
   s.cocoapods_version = '>= 1.5.0'
